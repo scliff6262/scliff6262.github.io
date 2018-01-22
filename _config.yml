@@ -1,10 +1,10 @@
 # Site settings
-title: 
+title: Coding with Cliff
 header-img: img/home-bg.png
 email: sclifford6262@gmail.com
 copyright_name: scliff6262
 description: > # this means to ignore newlines until "baseurl:"
-  
+  Pursuing a Career in Code
 baseurl: "" # the subpath of your site, e.g. /blog
 twitter_username: cliff914
 github_username:  scliff6262
