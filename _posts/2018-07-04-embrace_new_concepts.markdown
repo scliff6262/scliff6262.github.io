@@ -1,0 +1,13 @@
+---
+layout: post
+title:      "Embrace New Concepts"
+date:       2018-07-04 15:26:54 +0000
+permalink:  embrace_new_concepts
+---
+
+
+Learning to code is a process that is full of ups and downs, and even though the downs can be quite unenjoyable, they always result in growth and a nice confidence boost. The thing that you have to watch out for is the *plateaus*. There have been several points in my coding journey where I am cruising right along, feeling relatively confident and my abilities, and I get wacked with a new concept that I simply am not grasping. In the beginning, you have no choice but to grab the bull by the horns and tackle this new idea, however, once you have some skills in your repertoire you might start to use them as a security blanket of sorts. For example: Handlebars.js and Javascript object constructors. Initially, I had the urge to resist these new concepts. 
+
+Handlebars seemed like it had too many moving parts and Javascript models seemed like fake Ruby classes (I have become a real Ruby snob). This is a problem I have faced a few times when exposed to a new concept that will help to abstract away some of the messy, lower-level code. Then I got to my Rails/jQuery application build and I thought to myself, "lets step back for a second to understand these tools, because they might turn out to be useful." Sometimes you have to take one step back in order to take two steps forward. Once I implemented Handlebars into my application, it worked without a hiccup and really simplified my code and made the HTML *way* more readable. In this instance, I used the *debugger* after every step of the Handlebars templating process in order to really get an inside look at what was occurring under the hood. DO NOT underestimate the power of "debugger in JS and "pry" in Ruby. Both of these tools have been **crucial** for me while breaking down what is happening "under the hood."
+
+Its impossible to fully understand a concept when you're subconciously resisting it. Another example of this is the use of Javascript model objects. Like I mentioned earlier, I kind of looked at them as wanna-be Ruby classes, but they really can be implemented just as effectively in Javascript. Letting the object take care of the heavy lifting through custom object methods, really simplified my code when rendering bits of HTML on the DOM. Although constantly absorbing and retaining all of these new skills and tools may feel cumbersome, once they are properly utilized, you'll feel that much better about your own abilities knowing that you have added another useful tool to your repertoire.
