@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "Hoisting, Scope, Naming Functions and Some ES6 Improvements"
-date:       2018-07-16 23:10:24 +0000
+date:       2018-07-16 19:10:25 -0400
 permalink:  hoisting_scope_naming_functions_and_some_es6_improvements
 ---
 
@@ -80,9 +80,9 @@ While we are talking about hoisting, Functions are also affected by hoisting, de
 
 * Anonymous functions - can be defined and returned from within other functions, passed into functions as an argument, or created and then called immediately. They are not stored to their own variable and are defined simply by typing ```function(){  …  }```
 * Function declaration - created with a name which is stored and hoisted, in its entirety (not just the name like a ```var```), to the top of the scope. These functions can be called before they are defined because of hoisting. Typed ```function nameHere(){ … }```, this seems to be the most common way to create a function because of how hoisting is used here, unlike…
-* Function expressions - similar to function declarations, these functions are stored in a variable name. However, the big difference here is that these functions are NOT hoisted to the top of the scope because they are part of a var/let/const definition and can only be used after the function has been defined. For example ```const thisFunction = function(){ … }``` 
+* Function expressions - similar to function declarations, these functions are stored in a variable name. However, the big difference here is that these functions are NOT hoisted to the top of the scope because they are part of a var/let/const definition and can only be used after the function has been defined. For example ```const thisFunction = function(){ … }```&#x2028;
 
-**ARROW FUNCTIONS**
+**Arrow Functions**
 
 As with variable declarations, ES6 sought to improve upon the previous way that functions were both defined and implemented. This led to the creation of “arrow functions”. In terms of readability, the arrow function is a definite improvement over the traditional function declaration, but don’t make the mistake I made and think that arrow functions are simply easier on the eyes. They have two very useful characteristics. First, when typed without curly brackets ex:
 ``` () => 5 * 5 ``` they use implicit return, meaning the result of the function’s code will be returned automatically. In addition to this optional implicit return (remember, only without curly brackets), these arrow functions eliminate the need for ```.bind()``` when using the “this” keyword. Normally in a callback function, we must bind with an object in order to properly use the ```this``` keyword because when using ```this``` in a traditional function, ```this``` will just point to the function that is being called in. However, arrow functions will, more-or-less, inherit thier ```this``` from the scope that the parent function is called in.
