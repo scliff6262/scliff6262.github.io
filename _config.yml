@@ -1,15 +1,14 @@
 # Site settings
+author: Sean Clifford 
 title: Coding with Cliff
 header-img: img/home-bg.png
 email: sclifford6262@gmail.com
-copyright_name: scliff6262
+copyright_name: Sean Clifford 
 description: > # this means to ignore newlines until "baseurl:"
-  Pursuing a Career in Code
+  Javascript, React, and Rails
 baseurl: "" # the subpath of your site, e.g. /blog
-twitter_username: cliff914
+twitter_username: 
 github_username:  scliff6262
-learn_profile: scliff6262
-email_username: sclifford6262@gmail.com
 
 # Build settings
 markdown: kramdown
